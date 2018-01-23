@@ -1,0 +1,8 @@
+i<>.\src\alu.vhd
+i<>.\src\rom.vhd
+i<>.\src\testbench.vhd
+i<>.\src\dff.vhd
+i<>.\src\dff_reset.vhd
+i<>.\src\dff5.vhd
+i<>.\src\dff32.vhd
+i<>.\src\instruction.vhd
