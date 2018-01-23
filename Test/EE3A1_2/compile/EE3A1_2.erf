@@ -1,0 +1,15 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: Y:\A report\Test\EE3A1_2\src\testbench.vhd" 
+MESSAGE "Compile Entity "testbench"" 
+MESSAGE "Compile Architecture "simple" of Entity "testbench"" 
+ERROR COMP96_0078: "Unknown identifier "instruction"." "Y:\A report\Test\EE3A1_2\src\testbench.vhd" 38 23
+ERROR COMP96_0078: "Unknown identifier "address3_if"." "Y:\A report\Test\EE3A1_2\src\testbench.vhd" 38 89
+ERROR COMP96_0078: "Unknown identifier "opcode_if"." "Y:\A report\Test\EE3A1_2\src\testbench.vhd" 38 115
+ERROR COMP96_0133: "Cannot find object declaration." "Y:\A report\Test\EE3A1_2\src\testbench.vhd" 38 23
+ERROR COMP96_0112: ""instruction" does not match the formal name." "Y:\A report\Test\EE3A1_2\src\testbench.vhd" 38 23
+ERROR COMP96_0207: "No actual specified for local port "address1"." "Y:\A report\Test\EE3A1_2\src\testbench.vhd" 37 0
+ERROR COMP96_0207: "No actual specified for local port "address2"." "Y:\A report\Test\EE3A1_2\src\testbench.vhd" 37 0
+ERROR COMP96_0207: "No actual specified for local port "address3_of"." "Y:\A report\Test\EE3A1_2\src\testbench.vhd" 37 0
+ERROR COMP96_0207: "No actual specified for local port "address3_ex"." "Y:\A report\Test\EE3A1_2\src\testbench.vhd" 37 0
+ERROR COMP96_0207: "No actual specified for local port "enable_in"." "Y:\A report\Test\EE3A1_2\src\testbench.vhd" 37 0
+FAILURE "Compile failure 10 Errors 0 Warnings  Analysis time :  94.0 [ms]" 

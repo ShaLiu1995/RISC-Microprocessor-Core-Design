@@ -1,0 +1,1 @@
+-w -erf "Y:/A report/Test/EE3A1_2/compile/EE3A1_2.erf" -d "Y:/A report/Test/EE3A1_2/compile" -s "Y:/A report/Test/EE3A1_2/library.cfg" -j "Y:/A report/Test/EE3A1_2/projlib.cfg" -work EE3A1 -O3 -e 100 -work EE3A1 -2002 "Y:/A report/Test/EE3A1_2/src/testbench.vhd" 
