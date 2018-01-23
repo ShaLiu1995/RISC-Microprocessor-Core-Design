@@ -1,0 +1,37 @@
+Active-HDL 10.3.3558.6081  2017-01-08 10:40:18
+
+Elaboration top modules:
+Architecture                  simple(testbench)
+
+
+---------------------------------------------------------------------------------------------
+Entity     | Architecture | Library | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------
+testbench  | simple       | ee3a1   |      | 10.3.3558.6081  (Windows) | -O3
+ram        | simple       | ee3a1   |      | 10.3.3558.6081  (Windows) | -O3
+alu        | simple       | ee3a1   |      | 10.3.3558.6081  (Windows) | -O3
+dff6       | simple       | ee3a1   |      | 10.3.3558.6081  (Windows) | -O3
+dff5       | simple       | ee3a1   |      | 10.3.3558.6081  (Windows) | -O3
+dff5_reset | simple       | ee3a1   |      | 10.3.3558.6081  (Windows) | -O3
+dff32      | simple       | ee3a1   |      | 10.3.3558.6081  (Windows) | -O3
+ins        | simple       | ee3a1   |      | 10.3.3558.6081  (Windows) | -O3
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+VHDL Package              | Library | Info | Compiler Version          | Compilation Options
+---------------------------------------------------------------------------------------------
+standard                  | std     |      |                           | <unavailable>
+TEXTIO                    | std     |      | 10.3.3558.6081  (Windows) |  -2008
+std_logic_1164            | ieee    |      | 10.3.3558.6081  (Windows) |  -2008
+std_logic_arith           | ieee    |      | 10.3.3558.6081  (Windows) | <unavailable>
+STD_LOGIC_SIGNED          | ieee    |      | 10.3.3558.6081  (Windows) | <unavailable>
+STD_LOGIC_UNSIGNED        | ieee    |      | 10.3.3558.6081  (Windows) | <unavailable>
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+Library                   | Comment
+---------------------------------------------------------------------------------------------
+ee3a1                     | None
+ieee                      | Standard IEEE packages library
+std                       | Standard VHDL library
+---------------------------------------------------------------------------------------------
