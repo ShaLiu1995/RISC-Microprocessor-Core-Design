@@ -1,0 +1,17 @@
+102
+~E 1 "./../src/alu.vhd" 5 alu
+~A 1 "./../src/alu.vhd" 12 simple
+~E 1 "./../src/dff_reset.vhd" 5 dff
+~A 1 "./../src/dff.vhd" 11 simple
+~E 1 "./../src/dff32.vhd" 5 dff32
+~A 1 "./../src/dff32.vhd" 11 simple
+~E 1 "./../src/dff5.vhd" 5 dff5
+~A 1 "./../src/dff5.vhd" 11 simple
+~E 1 "./../src/dff6.vhd" 5 dff6
+~A 1 "./../src/dff6.vhd" 11 simple
+~E 1 "./../src/dff_reset.vhd" 5 dff_reset
+~A 1 "./../src/dff_reset.vhd" 12 simple
+~E 1 "./../src/rom.vhd" 5 rom
+~A 1 "./../src/rom.vhd" 15 simple
+~E 1 "./../src/testbench.vhd" 5 testbench
+~A 1 "./../src/testbench.vhd" 8 simple

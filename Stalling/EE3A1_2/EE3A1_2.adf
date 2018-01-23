@@ -1,0 +1,102 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=EE3A1
+
+[Library]
+EE3A1_2=.\EE3A1_2\EE3A1_2.lib
+EE3A1=.\EE3A1_2\EE3A1.LIB
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+Active_lib=
+EE3A1=.
+ee3a1_2=.
+
+[IMPLEMENTATION]
+UCF=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=testbench|simple|0          
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/dff6.vhd=-1
+/ram.vhd=-1
+/dff5_reset.vhd=-1
+/dff32.vhd=-1
+/dff5.vhd=-1
+/alu.vhd=-1
+/testbench.vhd=-1
+/demo.asdb=-1
+/demo.awc=-1
+/demo_2.asdb=-1
+/demo_2.awc=-1
+/ins.vhd=-1
+/detector.vhd=-1
+/testdetector.vhd=-1
+/stalling.asdb=-1
+/stalling.awc=-1
+/stalling_2.asdb=-1
+/stalling_2.awc=-1
+/stalling3.asdb=-1
+/stalling3.awc=-1
+/harware.asdb=-1
+/harware.awc=-1
+
+[Files.Data]
+.\src\dff6.vhd=VHDL Source Code
+.\src\ram.vhd=VHDL Source Code
+.\src\dff5_reset.vhd=VHDL Source Code
+.\src\dff32.vhd=VHDL Source Code
+.\src\dff5.vhd=VHDL Source Code
+.\src\alu.vhd=VHDL Source Code
+.\src\testbench.vhd=VHDL Source Code
+.\src\demo.asdb=Accelerated Waveform File
+.\src\demo.awc=Accelerated Waveform Configuration
+.\src\demo_2.asdb=Accelerated Waveform File
+.\src\demo_2.awc=Accelerated Waveform Configuration
+.\src\ins.vhd=VHDL Source Code
+
+.\src\detector.vhd=VHDL Source Code
+.\src\testdetector.vhd=VHDL Source Code
+.\src\stalling.asdb=Accelerated Waveform File
+.\src\stalling.awc=Accelerated Waveform Configuration
+.\src\stalling_2.asdb=Accelerated Waveform File
+.\src\stalling_2.awc=Accelerated Waveform Configuration
+.\src\stalling3.asdb=Accelerated Waveform File
+.\src\stalling3.awc=Accelerated Waveform Configuration
+.\src\harware.asdb=Accelerated Waveform File
+.\src\harware.awc=Accelerated Waveform Configuration

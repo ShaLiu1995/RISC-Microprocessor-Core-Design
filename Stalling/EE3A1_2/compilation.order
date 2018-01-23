@@ -1,0 +1,10 @@
+.\src\dff6.vhd
+.\src\ram.vhd
+.\src\dff5_reset.vhd
+.\src\dff32.vhd
+.\src\dff5.vhd
+.\src\alu.vhd
+.\src\testbench.vhd
+.\src\ins.vhd
+.\src\detector.vhd
+.\src\testdetector.vhd

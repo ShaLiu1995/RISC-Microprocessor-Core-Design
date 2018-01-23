@@ -1,0 +1,200 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# Waveform file 'Y:/A report/Stalling/EE3A1_2/src/stalling_2.awc' connected to 'Y:/A report/Stalling/EE3A1_2/src/stalling_2.asdb'.
+# Waveform file 'Y:/A report/Stalling/EE3A1_2/src/stalling3.awc' connected to 'Y:/A report/Stalling/EE3A1_2/src/stalling3.asdb'.
+acom -O3 -e 100 -work EE3A1 -2002  $dsn/src/dff6.vhd $dsn/src/ram.vhd $dsn/src/dff5_reset.vhd $dsn/src/dff32.vhd $dsn/src/dff5.vhd $dsn/src/alu.vhd $dsn/src/testbench.vhd $dsn/src/ins.vhd $dsn/src/detector.vhd $dsn/src/testdetector.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: Y:\A report\Stalling\EE3A1_2\src\dff6.vhd
+# Compile Entity "dff6"
+# Compile Architecture "simple" of Entity "dff6"
+# File: Y:\A report\Stalling\EE3A1_2\src\ram.vhd
+# Compile Entity "ram"
+# Compile Architecture "simple" of Entity "ram"
+# File: Y:\A report\Stalling\EE3A1_2\src\dff5_reset.vhd
+# Compile Entity "dff5_reset"
+# Compile Architecture "simple" of Entity "dff5_reset"
+# File: Y:\A report\Stalling\EE3A1_2\src\dff32.vhd
+# Compile Entity "dff32"
+# Compile Architecture "simple" of Entity "dff32"
+# File: Y:\A report\Stalling\EE3A1_2\src\dff5.vhd
+# Compile Entity "dff5"
+# Compile Architecture "simple" of Entity "dff5"
+# File: Y:\A report\Stalling\EE3A1_2\src\alu.vhd
+# Compile Entity "alu"
+# Compile Architecture "simple" of Entity "alu"
+# File: Y:\A report\Stalling\EE3A1_2\src\testbench.vhd
+# Compile Entity "testbench"
+# Compile Architecture "simple" of Entity "testbench"
+# File: Y:\A report\Stalling\EE3A1_2\src\ins.vhd
+# Compile Entity "ins"
+# Compile Architecture "simple" of Entity "ins"
+# File: Y:\A report\Stalling\EE3A1_2\src\detector.vhd
+# Compile Entity "detector"
+# Compile Architecture "simple" of Entity "detector"
+# File: Y:\A report\Stalling\EE3A1_2\src\testdetector.vhd
+# Compile Entity "testdetector"
+# Compile Architecture "simple" of Entity "testdetector"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.6 [s]
+asim -O5 +access +r +m+testbench testbench simple
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7223 kB (elbread=1280 elab2=5793 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location Y:\A report\Stalling\EE3A1_2\src\wave.asdb
+#  18:45, 09 January 2017
+#  Simulation has been initialized
+# 16 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'Y:/A report/Stalling/EE3A1_2/src/wave.asdb'.
+run 40 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 1,  Instance: /testbench/g1,  Process: line__27.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 1,  Instance: /testbench/g1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 1,  Instance: /testbench/g1,  Process: line__27.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 10 ns,  Iteration: 1,  Instance: /testbench/g1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 1,  Instance: /testbench/g3,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 1,  Instance: /testbench/g3,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 1,  Instance: /testbench/g3,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 1,  Instance: /testbench/g3,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 1,  Instance: /testbench/g3,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 1,  Instance: /testbench/g3,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 1,  Instance: /testbench/g8,  Process: line__44.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 10 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /testbench/g1,  Process: line__27.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /testbench/g1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /testbench/g1,  Process: line__27.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 30 ns,  Iteration: 1,  Instance: /testbench/g1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 30 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 30 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 30 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 30 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 30 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 30 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 30 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 30 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 30 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 30 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 30 ns,  Iteration: 2,  Instance: /testbench/g2,  Process: line__14.
+# KERNEL: stopped at time: 40 ns
+run 40 ns
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /testbench/g8,  Process: line__44.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 50 ns,  Iteration: 1,  Instance: /testbench/g8,  Process: line__44.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 70 ns,  Iteration: 1,  Instance: /testbench/g1,  Process: line__27.
+# KERNEL: WARNING: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+# KERNEL: Time: 70 ns,  Iteration: 1,  Instance: /testbench/g1,  Process: line__27.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 70 ns,  Iteration: 1,  Instance: /testbench/g8,  Process: line__44.
+# KERNEL: WARNING: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+# KERNEL: Time: 70 ns,  Iteration: 1,  Instance: /testbench/g8,  Process: line__44.
+# KERNEL: stopped at time: 80 ns
+run 40 ns
+# KERNEL: stopped at time: 120 ns
+run 40 ns
+# KERNEL: stopped at time: 160 ns
+run 40 ns
+# KERNEL: stopped at time: 200 ns
+run 40 ns
+# KERNEL: stopped at time: 240 ns
+run 40 ns
+# KERNEL: stopped at time: 280 ns
+run 40 ns
+# KERNEL: stopped at time: 320 ns
+run 40 ns
+# KERNEL: stopped at time: 360 ns
+run 40 ns
+# KERNEL: stopped at time: 400 ns
+run 40 ns
+# KERNEL: stopped at time: 440 ns
+run 40 ns
+# KERNEL: stopped at time: 480 ns
+run 40 ns
+# KERNEL: stopped at time: 520 ns
+# Waveform file 'untitled.awc' connected to 'Y:/A report/Stalling/EE3A1_2/src/harware.asdb'.
+# Adding file Y:\A report\Stalling\EE3A1_2\src\harware.asdb ... Done
+# Adding file Y:\A report\Stalling\EE3A1_2\src\harware.awc ... Done
